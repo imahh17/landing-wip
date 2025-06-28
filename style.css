@@ -98,9 +98,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1.875rem;
-  min-width: 18.7rem;
-  min-height: 14.06rem;
+  gap: 1rem;
+  width: 12rem;
   margin: 1rem;
   padding: 1rem;
   position: absolute;
@@ -111,8 +110,6 @@ button {
   background-color: var(--color-primary);
 
   header {
-    padding-right: 6rem;
-    width: 18.7rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -125,6 +122,10 @@ button {
   p {
     line-height: 120%;
     color: var(--color-text);
+  }
+
+  p, a {
+    font-size: 0.75rem;
   }
 
   > a {
@@ -153,5 +154,19 @@ button {
   }
   .desktop {
     display: block;
+  }
+  .card {
+    gap: 1.875rem;
+    width: initial;
+    min-width: 18.7rem;
+    min-height: 14.06rem;
+
+    p, a {
+      font-size: 1rem;
+    }
+  }
+  .card header {
+    padding-right: 6rem;
+    width: 18.7rem;
   }
 }

@@ -4,7 +4,7 @@
   font-family: "Neogrotesk Pro";
   font-style: normal;
   font-weight: 300;
-  src: url("./fonts/neogroteskpro-light.otf") format("opentype");
+  src: url("./assets/fonts/neogroteskpro-light.otf") format("opentype");
 }
 
 :root {

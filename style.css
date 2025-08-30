@@ -141,4 +141,9 @@ button {
     background-color: var(--color-primary);
     border-color: #fff;
   }
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }
